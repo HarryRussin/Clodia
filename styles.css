@@ -1,0 +1,82 @@
+body {
+    font-family: Fauna One, sans-serif;
+    margin: 0%;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("imgs/greece-1594689_1280.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    color: whitesmoke;
+    padding: 20%;
+    text-align: center;
+    font-family: Cinzel;
+}
+
+.hero-text h1 {
+    font-size: 5em;
+}
+
+.cardlinks {
+    margin: 24% 0 12% 0;
+    text-align: center;
+    font-family: Ubuntu;
+}
+
+.cardlinks a {
+    text-decoration: none;
+    color: rgb(36, 54, 4);
+}
+
+.cardlinks a:hover {
+    color: rgb(21, 165, 21);
+}
+
+.info {
+    text-align: left;
+    padding: 7%;
+    font-family: Ubuntu;
+}
+
+hr.hr1 {
+    border-top: 1px dashed;
+    margin: 12% 7% 12%;
+}
+
+.womanhood img {
+    float: left;
+}
+
+.early-life img {
+    width: 170px;
+    float: right;
+    margin: 3% 5% 5%;
+}
+
+.nom {
+    clear: right;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Cinzel;
+}
+
+.footer {
+    font-family: Cinzel;
+    text-align: left;
+    padding: 3% 3% 1.5% 3%;
+    font-size: 1.2em;
+}
